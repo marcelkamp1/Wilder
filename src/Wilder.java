@@ -11,8 +11,8 @@ public class Wilder{
 	}
 	
 	//method
-	public void whoamI() {
-		if(present)
+	public void whoAmI() {
+		if(this.present)
 		System.out.println("My name is " + this.firstname + " and I'm present!");
 		else
 		System.out.println("My name is " + this.firstname + " and I'm not present!");}
