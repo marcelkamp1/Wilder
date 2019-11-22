@@ -2,17 +2,17 @@ public class Classroom{
 	
 	public static void main(String[] args) {
 		Wilder marcel = new Wilder("Marcel", true);
-		marcel.whoamI();
+		marcel.whoAmI();
 		
 		Wilder steffi = new Wilder("Stephanie", true);
-		steffi.whoamI();
+		steffi.whoAmI();
 		
 		Wilder martin = new Wilder("Martin", true);
 		martin.setPresent(false);
-		martin.whoamI();
+		martin.whoAmI();
 		
 		Wilder michael = new Wilder("Michael", false);
-		michael.whoamI();
+		michael.whoAmI();
 		
 	}
 }
